@@ -8,6 +8,7 @@ SAMPLE_RATE = 22050
 TRACK = np.zeros((SAMPLE_RATE * 60 * 60 * 24,))
 CURSOR = 0
 
+# aye kya bolti tu
 # Core framework
 
 def insert_audio(wav, sample_rate, no_advance=False):
